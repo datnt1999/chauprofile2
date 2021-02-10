@@ -1,0 +1,124 @@
+.logo img{
+    width: 100px;
+    text-align: right;
+}
+.logo{
+    flex-basis:20%;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right,#66CCFF,#CCFFCC)
+}
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index:1;
+    display: flex;
+    align-items: center;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.information{
+    width: 750px;
+    height: 620px;
+    position:absolute;
+    top: 52%;
+    left: 0;
+    transform:translateY(-50%);
+}
+#circle{
+    width: 750px;
+    height: 620px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: 1s;
+}
+.feature img{
+    width: 30px;
+}
+.feature{
+    position: absolute;
+    display: flex;
+    color: white;
+}
+.feature p{
+    font-size: 13px;
+}
+.feature h1{
+    font-size: 13px;
+}
+.feature div{
+    margin-left: 30px;
+}
+.feature div p{
+    margin-top: 8px;
+}
+.one{
+    top: 300px;
+    right: 10px;
+}
+.two{
+    top: 50px;
+    left: 300px;
+    transform:rotate(-90deg);
+}
+.three{
+    bottom: 260px;
+    left: 50px;
+    transform:rotate(-180deg);
+}
+.four{
+    bottom: 50px;
+    right:340px;
+    transform:rotate(-270deg);
+}
+.my_profile{
+    width: 200px;
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+    border-radius: 50%;
+    border: white solid 10px;
+}
+.controls{
+    position:absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.controls h3{
+    margin: 15px 0;
+    color: #fff;
+    text-align: center;
+}
+#upbtn{
+    width:15px;
+    cursor:pointer;
+}
+#downbtn{
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
